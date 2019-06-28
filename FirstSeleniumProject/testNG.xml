@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FirstSeleneiumProject">
+
+<listeners>
+<listener class-name="com.FirstProj.Utilities.Reporting" />
+</listeners>
+
+	<test name="Gurukula Staff App">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.FirstProj.TestCase.TC_01_VerifyLoginToApp"/>
+			<class name="com.FirstProj.TestCase.TC_02_VerifyTheOptionsAvailableOnEntities"/>
+			<class name="com.FirstProj.TestCase.TC_03_VerifyCreationOfNewBranch"/>
+			<class name="com.FirstProj.TestCase.TC_04_VerifySearchFunctionalityInBranchPage"/>
+			<class name="com.FirstProj.TestCase.TC_05_VerifyTheViewButtonOnBranchPage"/>
+			<class name="com.FirstProj.TestCase.TC_06_VerifyTheEditFunctionalityInBranchPage"/>
+			<class name="com.FirstProj.TestCase.TC_07_VerifyTheDeleteFunctionalityOnBranchPage"/>
+			<class name="com.FirstProj.TestCase.TC_08_VerifyCreationOfNewStaff"/>
+			<class name="com.FirstProj.TestCase.TC_09_VerifySearchFunctionalityInStaffPage"/>
+			<class name="com.FirstProj.TestCase.TC_10_VerifyTheViewButtonOnStaffPage"/>
+			<class name="com.FirstProj.TestCase.TC_11_VerifyTheEditFunctionalityInStaffPage"/>
+			<class name="com.FirstProj.TestCase.TC_12_VerifyTheDeleteFunctionalityOnStaffPage"/>
+			<class name="com.FirstProj.TestCase.TC_13_VerifyTheRegistrationOfNewUser"/>
+						
+		</classes>
+	</test>
+
+</suite>

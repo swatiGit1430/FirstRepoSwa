@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FirstSeleneiumProject]">
+  <listeners>
+    <listener class-name="com.FirstProj.Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Gurukula Staff App(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.FirstProj.TestCase.TC_11_VerifyTheEditFunctionalityInStaffPage">
+        <methods>
+          <include name="TC_EditStaff" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.FirstProj.TestCase.TC_11_VerifyTheEditFunctionalityInStaffPage -->
+    </classes>
+  </test> <!-- Gurukula Staff App(failed) -->
+</suite> <!-- Failed suite [FirstSeleneiumProject] -->
